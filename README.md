@@ -1,98 +1,107 @@
-projet Vue.js - Combat Pokémon & Pokédex
+# Projet Vue.js - Combat Pokémon & Pokédex
 
-Bienvenue dans le projet Combat Pokémon & Pokédex, une application web développée en Vue.js permettant aux utilisateurs d'explorer un Pokédex interactif et de simuler des combats Pokémon.
+Bienvenue dans le projet **Combat Pokémon & Pokédex**, une application web développée en Vue.js permettant aux utilisateurs d'explorer un Pokédex interactif et de simuler des combats Pokémon.
 
-Fonctionnalités principales
+---
 
-Exploration du Pokédex :
+## Fonctionnalités principales
 
-Charger la liste des Pokémon depuis une API.
+1. **Exploration du Pokédex** :
 
-Afficher les informations de chaque Pokémon (nom, type, statistiques, attaques).
+   - Charger la liste des Pokémon depuis une API.
+   - Afficher les informations de chaque Pokémon (nom, type, statistiques, attaques).
+   - Ajouter un champ de recherche et des filtres par type.
 
-Système de combat :
+2. **Système de combat** :
 
-Sélectionner un Pokémon depuis la liste.
+   - Sélectionner un Pokémon depuis la liste.
+   - Comparer les statistiques des Pokémon pour déterminer le vainqueur.
+   - Afficher le résultat du combat.
 
-Comparer les statistiques des Pokémon pour déterminer le vainqueur.
+3. **Interface utilisateur responsive** :
 
-Afficher les animations et le résultat du combat.
+   - Assurer une compatibilité avec les mobiles et tablettes.
+   - Utiliser un framework CSS pour un design moderne.
 
-Interface utilisateur responsive :
+---
 
-Assurer une compatibilité avec les mobiles et tablettes.
+## Démarrage rapide
 
-Utiliser un framework CSS pour un design moderne.
+### Prérequis
 
-Démarrage rapide
+1. Installer Node.js (v16 ou supérieur).
+2. Installer Vue CLI avec `npm install -g @vue/cli`.
+3. Vérifier la disponibilité d'un gestionnaire de paquets (npm ou yarn).
 
-Prérequis
+### Installation
 
-Installer Node.js (v16 ou supérieur).
+1. Cloner le dépôt : `git clone https://github.com/votre-utilisateur/combat-pokemon-vue.git`.
+2. Ouvrir le projet : `cd combat-pokemon-vue`.
+3. Installer les dépendances avec `npm install`.
 
-Installer Vue CLI avec npm install -g @vue/cli.
+### Lancer le projet
 
-Vérifier la disponibilité d'un gestionnaire de paquets (npm ou yarn).
+- Exécuter `npm run serve`.
+- Accéder à `http://localhost:8080`.
 
-Installation
+### Générer une version de production
 
-Cloner le dépôt : git clone https://github.com/votre-utilisateur/combat-pokemon-vue.git.
+- Exécuter `npm run build`.
+- Retrouver les fichiers optimisés dans le dossier `dist`.
 
-Ouvrir le projet : cd combat-pokemon-vue.
+---
 
-Installer les dépendances avec npm install.
+## Structure du projet
 
-Lancer le projet
-
-Exécuter npm run serve.
-
-Accéder à http://localhost:8080.
-
-Générer une version de production
-
-Exécuter npm run build.
-
-Retrouver les fichiers optimisés dans le dossier dist.
-
-Structure du projet
-
+```
 Dossier src :
 - assets/ : Contient les images et fichiers statiques.
 - components/ : Composants Vue.js (Carte Pokémon, Combat, etc.).
-- types/ : Gestion de l'API pokémon.
+- types/ : Gestion de l'API Pokémon.
 - router/ : Gestion de la navigation Vue Router.
 - App.vue : Composant principal.
 - main.ts : Point d'entrée de l'application.
+```
 
-Technologies utilisées
+---
 
-Vue.js : Framework principal.
+## Technologies utilisées
 
-Vue Router : Gestion des routes.
+- Vue.js : Framework principal.
+- Vue Router : Gestion des routes.
+- Tailwind CSS : Gestion du design et responsive.
 
-Tailwind CSS : Gestion du design et responsive.
+---
 
-Contribuer
+## Contribuer
 
-Forker le projet.
+1. Forker le projet.
+2. Créer une nouvelle branche : `git checkout -b NOM_FONCTIONNALITE`.
+3. Apporter des modifications et les valider : `git commit -m "Description"`.
+4. Pousser la branche : `git push origin NOM_FONCTIONNALITE`.
+5. Ouvrir une Pull Request.
 
-Créer une nouvelle branche : git checkout -b NOM_FONCTIONNALITE.
+---
 
-Apporter des modifications et les valider : git commit -m "Description".
+## Auteurs
 
-Pousser la branche : git push origin NOM_FONCTIONNALITE.
+- Développeur principal : BRISSIERE Jérémie
 
-Ouvrir une Pull Request.
+---
 
-Auteurs
+## Licence
 
-Développeur principal :BRISSIERE Jérémie
+- Ce projet est sous licence MIT.
 
-Licence
+---
 
-Ce projet est sous licence MIT.
+## Contact
 
-Contact
+- Email : [jeremie.brissiere@gmail.com](mailto\:jeremie.brissiere@gmail.com)
+
+
 
 Email : jeremie.brissiere@gmail.com
+
+
 
